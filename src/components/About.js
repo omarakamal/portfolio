@@ -4,6 +4,7 @@ import angularIcon from "@iconify/icons-logos/javascript";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/nodejs";
 
+
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -27,7 +28,7 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="200px"
-                    src={profilepic}
+                    src='/images/omar.jpg'
                     alt="Avatar placeholder"
                   />
                   <Icon

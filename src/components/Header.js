@@ -42,12 +42,16 @@ class Header extends Component {
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br/>
               <img src></img>
+
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
+              <a href="mailto: omarakamalbusiness@gmail.com/">    <button type="button" class="btn btn-outline-dark">View Resume</button> </a>
+              <a href="mailto: omarakamalbusiness@gmail.com/"><button id="second-btn" type="button" class="btn btn-outline-dark">Contact Me!</button> </a>
+
               {/* <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}

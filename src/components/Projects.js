@@ -19,33 +19,33 @@ class Projects extends Component {
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
-    //     return (
-    //       <div
-    //         className="col-sm-12 col-md-6 col-lg-4"
-    //         key={projects.title}
-    //         style={{ cursor: "pointer" }}
-    //       >
-    //         <span className="portfolio-item d-block">
-    //           <div className="foto" onClick={() => detailsModalShow(projects)}>
-    //             <div>
-    //               <img
-    //                 src={projects.images[0]}
-    //                 alt="projectImages"
-    //                 height="230"
-    //                 style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-    //               />
-    //               <span className="project-date">{projects.startDate}</span>
-    //               <br />
-    //               <p className="project-title-settings mt-3">
-    //                 {projects.title}
-    //               </p>
-    //             </div>
-    //           </div>
-    //         </span>
-    //       </div>
-    //     );
-       });
-     }
+        //     return (
+        //       <div
+        //         className="col-sm-12 col-md-6 col-lg-4"
+        //         key={projects.title}
+        //         style={{ cursor: "pointer" }}
+        //       >
+        //         <span className="portfolio-item d-block">
+        //           <div className="foto" onClick={() => detailsModalShow(projects)}>
+        //             <div>
+        //               <img
+        //                 src={projects.images[0]}
+        //                 alt="projectImages"
+        //                 height="230"
+        //                 style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+        //               />
+        //               <span className="project-date">{projects.startDate}</span>
+        //               <br />
+        //               <p className="project-title-settings mt-3">
+        //                 {projects.title}
+        //               </p>
+        //             </div>
+        //           </div>
+        //         </span>
+        //       </div>
+        //     );
+      });
+    }
 
     return (
       <section id="portfolio">
@@ -55,9 +55,11 @@ class Projects extends Component {
           </h1>
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
-            <iframe id="video" width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
+            <div className="row d-flex justify-content-center">
+              <iframe className="" id="video" width="700" height="505"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+              </iframe>
+            </div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
