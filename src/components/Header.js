@@ -49,7 +49,7 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              <a href="mailto: omarakamalbusiness@gmail.com/">    <button type="button" class="btn btn-outline-dark">View Resume</button> </a>
+              <a href="https://drive.google.com/file/d/195MzgtIets92a28FvCJISDXLDtaqmpal/view?usp=sharing/">    <button type="button" class="btn btn-outline-dark">View Resume</button> </a>
               <a href="mailto: omarakamalbusiness@gmail.com/"><button id="second-btn" type="button" class="btn btn-outline-dark">Contact Me!</button> </a>
 
               {/* <Switch
